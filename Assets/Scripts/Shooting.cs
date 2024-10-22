@@ -9,20 +9,25 @@ public class Shooting : MonoBehaviour
 
     [SerializeField] public GameObject SpawnPoint;
     [SerializeField] public GameObject Bullet;
+    public TimeManager timeManager;
     void Start()
     {
-        
+        timeManager = FindObjectOfType<TimeManager>();
     }
 
     public void Update()
     {
-        if (Input.GetMouseButtonDown(0) == true)
+        if (Input.GetMouseButtonDown(0))
         {
-            GameObject bullet = Instantiate(Bullet, SpawnPoint.transform.position, Quaternion.identity); 
+            GameObject bullet = Instantiate(Bullet, SpawnPoint.transform.position, Quaternion.identity);
             Rigidbody rb = bullet.GetComponent<Rigidbody>();
 
-            rb.AddForce(Camera.main.transform.forward * 2000);
+            rb.velocity = Camera.main.transform.forward * 150f;
             Destroy(bullet, 5);
+        }
+        if (Input.GetKeyDown(KeyCode.Y))
+        {
+            timeManager.Slowmotion();                        
         }
     }
    
