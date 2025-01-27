@@ -354,6 +354,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs"
 "Assets/Scripts/BulletBehaviour.cs"
+"Assets/Scripts/DestroyOnCollision.cs"
 "Assets/Scripts/MyClass.cs"
 "Assets/Scripts/Shooting.cs"
 "Assets/Scripts/TimeManager.cs"
