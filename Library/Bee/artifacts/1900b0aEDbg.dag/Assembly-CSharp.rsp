@@ -356,6 +356,7 @@
 "Assets/Scripts/BulletBehaviour.cs"
 "Assets/Scripts/DestroyOnCollision.cs"
 "Assets/Scripts/MyClass.cs"
+"Assets/Scripts/RandomSpawner.cs"
 "Assets/Scripts/Shooting.cs"
 "Assets/Scripts/TimeManager.cs"
 -langversion:9.0
