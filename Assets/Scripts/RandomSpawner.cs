@@ -9,7 +9,7 @@ public class RandomSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetKeyDown(KeyCode.G))
         {
             Vector3 randomSpawnPosition = new Vector3(Random.Range(-10, 11), 5, Random.Range(-10, 11));
             GameObject spawnedCube = Instantiate(CubePrefab, randomSpawnPosition, Quaternion.identity);
@@ -18,6 +18,11 @@ public class RandomSpawner : MonoBehaviour
             //což znamená že velikost té kostky bude zmenšeno o polovinu nebo zvìtšeno o trojnásobek a èísla mezi tím
             spawnedCube.transform.localScale = new Vector3(randomscale, randomscale, randomscale);
             //randomscale, randomscale, randomscale se rovná tomu že tím že jsou vlastnì všechny souøadnice stejné tak se zvìtšují èi zmenšují ve všech smìrech 
+            Renderer renderer = spawnedCube.GetComponent<Renderer>();
+            if (renderer != null)
+            {
+                renderer.material.color = new Color(Random.value, Random.value, Random.value);
+            }
         }
     }
 }

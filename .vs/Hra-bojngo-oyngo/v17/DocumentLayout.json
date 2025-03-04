@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\RandomSpawner.cs",
               "ToolTip": "C:\\Users\\matej.slach\\Documents\\GitHub\\Hra-bojngo-oyngo\\Assets\\Scripts\\RandomSpawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\RandomSpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAACgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T11:04:15.216Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "Assets\\Scripts\\DestroyOnCollision.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T09:24:47.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T09:24:47.306Z"
             }
           ]
         }
