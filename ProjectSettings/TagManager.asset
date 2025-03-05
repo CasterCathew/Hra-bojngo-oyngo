@@ -7,6 +7,7 @@ TagManager:
   - Bullet
   - "N\xE1boj"
   - Cube
+  - ScoreLabel
   layers:
   - Default
   - TransparentFX
