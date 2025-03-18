@@ -11,7 +11,7 @@ public class RandomSpawner : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.G))
         {
-            Vector3 randomSpawnPosition = new Vector3(Random.Range(-10, 11), 5, Random.Range(-10, 11));
+            Vector3 randomSpawnPosition = new Vector3(Random.Range(-20, 40), 15, Random.Range(-20, 40));
             GameObject spawnedCube = Instantiate(CubePrefab, randomSpawnPosition, Quaternion.identity);
             float randomscale = Random.Range(0.5f, 3.0f); 
             //zde se generuje náhodné èíslo mezi 0.5 a 3.0
