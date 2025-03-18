@@ -7,7 +7,7 @@ using Unity.VisualScripting;
 public class TimeManager : MonoBehaviour
 {
     public float slowdownFactor = 0.05f;
-    public float slowdownLength = 2f;
+    public float slowdownLength = 5f;
     private bool isSlowmotionActive = false;
 
     void Update()
